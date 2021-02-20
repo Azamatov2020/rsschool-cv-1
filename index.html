@@ -11,7 +11,9 @@
 <body class="page">
    <header class="header">
       <h1 class="my-name">Karazan Denis</h1>
-      <img src="./img/photo.jpg" alt="my photo was supposed to be here, but something went wrong" class="photo">
+      <figure class="fugure-photo">
+         <img src="./img/photo.jpg" alt="my photo was supposed to be here, but something went wrong" class="photo">
+      </figure>
       <section class="contacts">
          <h2 class="contacts-title">Contact info</h2>
          <ul class="contacts-list">
@@ -37,7 +39,7 @@
    </header>
    <main class="main">
       <section class="feature">
-         <h2 class="feature-title">Summary</h2>
+         <h3 class="feature-title">Summary</h3>
          <p class="feature-text">
             I am currently working as an electronic engineer in an ice cream factory. My goal is to learn something new
             for myself, and if there is an opportunity to change my occupation. Before that I studied programming
@@ -48,16 +50,36 @@
          </p>
       </section>
       <section class="feature">
-         <h2 class="feature-title">Skills</h2>
-         <p class="feature-text">
-            I started learning html and css about 8 months ago by myself. Well, I started my acquaintance with JS only
-            on September 6, 2020, on the RSS2020Q3 course. At the university I studied programming languages: C, mikroC,
-            and at work - step 7 (LAD, FBD). I have been using GitHub for over 5 months and posting my work there. There
-            are my projects, examples of practical tasks and work from different intensives.
-         </p>
+         <h3 class="feature-title">Skills</h3>
+         <ul class="feature-list">
+            <li class="feature-item-skill">
+               I started learning html and css about 8 months ago by myself.
+            </li>
+            <li class="feature-item-skill">
+               Well, I started my acquaintance with JS only on September 6, 2020, on the RSS2020Q3 course.
+            </li>
+            <li class="feature-item-skill">
+               At the university I studied programming languages:
+               <ul class="feature-list-item-list">
+                  <li class="feature-item-list-interior">
+                     C,
+                  </li>
+                  <li class="feature-item-list-interior">
+                     mikroC.
+                  </li>
+               </ul>
+            </li>
+            <li class="feature-item-skill">
+               And at work - step 7 (LAD, FBD).
+            </li>
+            <li class="feature-item-skill">
+               I have been using GitHub for over 5 months and posting my work there. There are my projects, examples of
+               practical tasks and work from different intensives.
+            </li>
+         </ul>
       </section>
       <section class="feature">
-         <h2 class="feature-tutle">Code examples (LATEST)</h2>
+         <h3 class="feature-tutle">Code examples (LATEST)</h3>
          <p class="feature-text">
             That's my, not from intensives.
          </p>
@@ -128,13 +150,13 @@
          </ul>
       </section>
       <section class="feature">
-         <h2 class="feature-title">Experience</h2>
+         <h3 class="feature-title">Experience</h3>
          <p class="feature-text">
             I have little experience in JS and Frontend development. At the moment, 4 months.
          </p>
       </section>
       <section class="feature">
-         <h2 class="feature-title">Education</h2>
+         <h3 class="feature-title">Education</h3>
          <p class="feature-text">
             4 intensive courses. The last one - in JS, creating a game where a lot was not clear for me. But I also
             learned a lot.
@@ -145,7 +167,7 @@
          <p class="feature-text">Also the previous course at RS School 2020Q3.</p>
       </section>
       <section class="feature">
-         <h2 class="feature-title">English</h2>
+         <h3 class="feature-title">English</h3>
          <p class="feature-text">
             I try to learn English in every possible way. Smartphone: Simpler, Duolingo. I use google translate a lot.
             But it happens when I can read the text “<span class="text-italic">between the lines</span>” and understand
@@ -161,9 +183,15 @@
          </a>
       </div>
       <div class="footer-block">
-         <a href="https://github.com/Wolf-Den1994" target="_blank" rel="noopener noreferrer" class="footer-link">My
-            GitHub</a>
-         <p class="footer-text">2021</p>
+         <a href="https://github.com/Wolf-Den1994" target="_blank" rel="noopener noreferrer" class="footer-link">
+            <h4 class="github">My GitHub</h4>
+         </a>
+         <h5 class="footer-text">2021</h5>
+      </div>
+      <div class="footer-block">
+         <a href="https://youtube.com/" target="_blank" rel="noopener noreferrer">
+            <img src="./img/YouTube_full-color_icon_(2017).svg" alt="youtube" class="logo">
+         </a>
       </div>
    </footer>
 </body>
